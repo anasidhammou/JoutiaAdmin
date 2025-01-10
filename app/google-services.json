@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "938593201624",
+    "firebase_url": "https://joutiaapp-default-rtdb.firebaseio.com",
+    "project_id": "joutiaapp",
+    "storage_bucket": "joutiaapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938593201624:android:ea8b30c13df1f2600e96ad",
+        "android_client_info": {
+          "package_name": "com.example.joutiaadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDbvTQCfuRCHDd5Rzkf-EgB5Wd8cz1RRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938593201624:android:d09a1c8344ccc1820e96ad",
+        "android_client_info": {
+          "package_name": "com.example.joutiaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDbvTQCfuRCHDd5Rzkf-EgB5Wd8cz1RRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

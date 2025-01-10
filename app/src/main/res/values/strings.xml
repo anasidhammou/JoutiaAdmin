@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JoutiaAdmin</string>
+    <string name="connexion">Se Connecter</string>
+    <string name="identifiant">Login</string>
+    <string name="Bienvenue_app_joutia">Bienvenue dans Joutia Admin</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="pour_uploader_les_photos_merci_de_cliquer_sur_le_en_haut">Uploader une bannières</string>
+    <string name="uploader_ou_prendre_au_max_1_photo">Uploader ou prendre au max 1 bannière</string>
+</resources>
