@@ -56,4 +56,10 @@ public class MainActivity extends AppCompatActivity {
         CustomAddBanniereDialog customDialog = new CustomAddBanniereDialog(MainActivity.this);
         customDialog.show();
     }
+
+    public void goNotif(View view) {
+
+        Intent intent = new Intent(this, NotificationsActivity.class);
+        startActivity(intent);
+    }
 }

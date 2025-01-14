@@ -75,7 +75,7 @@ public class ProduitListActivity extends AppCompatActivity {
 
                 for(int i=0;i<allPorductarray.size();i++){
                     if(allPorductarray.get(i).NomMagasin.equals(value) && allPorductarray.get(i).Approuved.equals(true)
-                            && allPorductarray.get(i).State.equals("0")){
+                            && allPorductarray.get(i).State.equals("1")){
                        allPorductarrayFiltred.add(allPorductarray.get(i));
                     }
                 }

@@ -43,6 +43,7 @@ public class ChildAdapter extends RecyclerView.Adapter<ChildAdapter.ChildViewHol
         if (!childList.isEmpty()) {
             holder.NomProd.setText(childList.get(position).NomProduit);
             holder.PrixProd.setText("Prix : " + childList.get(position).Prix + " Dhs");
+            holder.NomMagasProd.setText("Magasin : " + childList.get(position).nomMagasin);
             if(childList.get(position).type.equals("Base64")){
                 Bitmap bitmap = base64ToBitmap(childList.get(position).ImageBase);
                 if (bitmap != null) {
@@ -85,6 +86,7 @@ public class ChildAdapter extends RecyclerView.Adapter<ChildAdapter.ChildViewHol
     public static class ChildViewHolder extends RecyclerView.ViewHolder {
         ImageView imageProd;
         TextView NomProd;
+        TextView NomMagasProd;
         TextView PrixProd;
 
         public ChildViewHolder(@NonNull View itemView) {
@@ -92,6 +94,7 @@ public class ChildAdapter extends RecyclerView.Adapter<ChildAdapter.ChildViewHol
             imageProd = itemView.findViewById(R.id.img_prodpan);
             NomProd = itemView.findViewById(R.id.nom_prodPan);
             PrixProd = itemView.findViewById(R.id.prix_prodPan);
+            NomMagasProd = itemView.findViewById(R.id.nommagas_prodPan);
         }
     }
 }

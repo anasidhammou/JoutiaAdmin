@@ -62,7 +62,13 @@ public class CustomAdapterGridProduit extends BaseAdapter {
         }
 
         product currentProduct = allproductarray.get(position);
-        holder.name.setText(currentProduct.Nom.toString());
+        String originalText = currentProduct.Nom.toString();
+        if (originalText.length() > 20) {
+            String truncatedText = originalText.substring(0, 20) + "...";
+            holder.name.setText(truncatedText);
+        } else {
+            holder.name.setText(originalText);
+        }
 
         if(currentProduct.imageArrayList.get(0).contains("http")){
             Glide.with(context)

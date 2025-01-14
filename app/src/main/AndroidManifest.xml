@@ -13,6 +13,9 @@
         android:theme="@style/Theme.JoutiaAdmin"
         tools:targetApi="31">
         <activity
+            android:name=".NotificationsActivity"
+            android:exported="false" />
+        <activity
             android:name=".DetailsCommandeActivity"
             android:exported="false" />
         <activity
